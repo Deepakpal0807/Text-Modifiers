@@ -50,9 +50,9 @@ color:props.mode==="dark"?"white":"black"}} ></textarea>
     <button className="btn btn-primary  mx-2 my-2" onClick={upper}>Convert to Uppercase</button>
     <button className="btn btn-primary mx-2 my-2" onClick={lower}>Convert to Lowercase</button>
     <button className="btn btn-primary mx-2 my-2" onClick={speak}>Listen Your Text</button>
-    <button className="btn btn-primary mx-2" onClick={copy}><i className="fa fa-clone" aria-hidden="true"></i></button>
-    <button className="btn btn-primary mx-2" onClick={clear}>Clear Text</button>
-    <button className="btn btn-primary mx-2" onClick={remove}>Remove extra spaces</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={copy}><i className="fa fa-clone" aria-hidden="true"></i></button>
+    <button className="btn btn-primary mx-2 my-2" onClick={clear}>Clear Text</button>
+    <button className="btn btn-primary mx-2 my-2" onClick={remove}>Remove extra spaces</button>
     
   </div>
 
