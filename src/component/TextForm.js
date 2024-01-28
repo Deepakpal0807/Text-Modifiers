@@ -59,7 +59,7 @@ color:props.mode==="dark"?"white":"black"}} ></textarea>
 
   <div className="container">
     <h3>Your Text Summary</h3> 
-    <p>{<b>{text.split(" ").filter((element)=>{
+    <p>{<b>{text.split(/\s+/).filter((element)=>{
      return element.length!=0 }).length}</b>} Words and {<b>{text.length}</b>} Characters</p>
     <h3>Preview</h3>
     <p>{text.length>0?text:"Nothing to preview."}</p>
